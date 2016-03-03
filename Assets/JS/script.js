@@ -3,12 +3,12 @@ $(function(){
 
 var map;
 
-function initMap() {
+window.initMap = function () {
    console.log('works great');
- map = new google.maps.Map($('#map'), {
+ map = new google.maps.Map(document.getElementById('map'), {
     center: {lat: -34.397, lng: 150.644},
     zoom: 8
- });//end of arguments for map
+  });//end of arguments for map
 }; // end of function initMap
 
 
