@@ -2,6 +2,7 @@ $(function(){
    'use strict';
 
 var map;
+
 function initMap() {
    console.log('works great');
  map = new google.maps.Map($('#map'), {
